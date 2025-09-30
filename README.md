@@ -132,17 +132,14 @@ cd frontend
 npm install
 ```
 
-3. Create `.env` file from example:
-```bash
-copy .env.example .env
-```
 
-4. Update `.env` with backend URL:
+3. Update `.env` with backend URL:
 ```env
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://taskmanager-2-9syc.onrender.com/api
+
 ```
 
-5. Start the development server:
+4. Start the development server:
 ```bash
 npm run dev
 ```
